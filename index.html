@@ -14,23 +14,29 @@
 </head>
 
 <body>
-    <main>
+    <main class="container">
         <div class="card">
-            <img src="./src/images/image-victor.jpg" alt="Foto de perfil">
-            <h2 class="nome">Victor Crest <span class="idade">26</span></h2>
-            <p class="cidade">London</p>
+            <div class="informacoes-do-perfil">
+                <img src="./src/images/image-victor.jpg" alt="imagem de perfil">
+                <p class="nome">Victor Crest <span class="idade cor">26</span></p>
+                <span class="cidade cor">London</span>
+            </div>
             <hr>
-            <div class="valores-em-numeros">
-                <p class="numero">80K</p>
-                <p class="numero">803K</p>
-                <p class="numero">1.4K</p>
-            </div>
+            <ul class="numeros-do-perfil">
+                <li class="info">
+                    <p class="contador">80K</p>
+                    <span class="tipo-de-contador cor">Followers</span>
+                </li>
+                <li class="info">
+                    <p class="contador">803K</p>
+                    <span class="tipo-de-contador cor">Likes</span>
+                </li>
+                <li class="info">
+                    <p class="contador">1.3K</p>
+                    <span class="tipo-de-contador cor">Photos</span>
+                </li>
 
-            <div class="atributos-gerais">
-                <p class="atributo">Followers</p>
-                <p class="atributo">Likes</p>
-                <p class="atributo">Photos</p>
-            </div>
+            </ul>
         </div>
     </main>
 </body>
